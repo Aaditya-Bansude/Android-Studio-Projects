@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_saved_room"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/navigation_saved_room"
+        android:name="com.example.unohome.ui.home.HomeFragment"
+        android:label="Uno Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_add_room"
+        android:name="com.example.unohome.ui.addroom.AddroomFragment"
+        android:label="Uno Home"
+        tools:layout="@layout/fragment_addroom" />
+
+    <fragment
+        android:id="@+id/navigation_wifi_scan"
+        android:name="com.example.unohome.ui.wifiscan.WifiscanFragment"
+        android:label="Uno Home"
+        tools:layout="@layout/fragment_wifiscan" />
+
+    <fragment
+        android:id="@+id/navigation_device_control"
+        android:name="com.example.unohome.ui.devicecontrol.DeviceControlFragment"
+        tools:layout="@layout/fragment_device_control" />
+
+</navigation>

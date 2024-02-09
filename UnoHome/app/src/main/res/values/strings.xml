@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Uno Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="led_light">LED Light</string>
+    <string name="fan">Fan</string>
+    <string name="refrigerator">Refrigerator</string>
+    <string name="door_lock">Door Lock</string>
+    <string name="tv">TV</string>
+    <string name="ac">AC</string>
+    <string name="quantity">Quantity: </string>
+    <string name="home_fragment_scroll_view">home fragment scroll view</string>
+    <string name="device_control_fragment_scroll_view">device control fragment scroll view</string>
+    <string-array name="quantities">
+        <item>1</item> <item>2</item> <item>3</item> <item>4</item> <item>5</item>
+        <item>6</item> <item>7</item> <item>8</item> <item>9</item> <item>10</item>
+    </string-array>
+</resources>
